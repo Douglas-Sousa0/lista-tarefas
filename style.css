@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35%;
+    height: 100vh;
+    background-color: #181818;
+}
+
+#addTasks{
+    width: 100%;
+    text-align: center;
+}
+
+#addTasks input{
+    margin-top: 75px;
+    width: 370px;
+    padding: 12px;
+    background: none;
+    border: 1px solid #4e4e4e;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+#addTasks button{
+    padding: 12px;
+    background-color: #c9e720;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#addTasks button:hover{
+    background-color: #b2ce14;
+}
+
+
+#listTasks{
+    background-color: #1a1a1a;
+    padding: 12px 170px;
+    border: 0;
+    border-radius: 7px;
+    max-height: 470px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+#listTasks li{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 12px;
+    
+}
+
+#listTasks a{
+    font-size: 12px;
+    margin-left: 18px;
+    text-decoration: none;
+    background-color: #4b1010;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+#listTasks a:hover{
+    background: #7e1f1f;
+}
